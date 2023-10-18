@@ -99,9 +99,6 @@ footer{
     justify-content: center;
     align-items: center;
 }
-footer p{
-    align-items: center;
-}
 /*main de pagina de productos*/
 #paginasDeProductos {
     background-color: white;
@@ -146,16 +143,15 @@ a img{
 /*pagina contactos*/
 #redesSocialesContacto {
     display: flex;
-    height: 100%;
-    margin: 0;
     flex-direction: column;
-    padding: 250px 70px;
+    padding: 70px 10px;
 }
 div h1{
     font-family: "Helvetica";
-    font-size: 15px;
-    padding-top: 150px;
-    padding-left: 50px; 
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 60px; 
 }
 .redes-sociales {
     text-align: left;
@@ -224,6 +220,10 @@ div h1{
     }
     #bannerBienvenida div img{
         padding-top: 70px;
+    }
+
+    footer{
+        height: auto;
     }
 }
 
