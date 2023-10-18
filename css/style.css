@@ -88,6 +88,21 @@ header .menu-item a{
     width: 150px;
     height: auto;
 }
+#carousel{
+    background-color: black;
+}
+#carouselInicio{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 10px;
+}
+.carousel-inner{
+    width: 100%;
+}
+.carousel-item{
+    width: 100%;
+}
 /*footer*/
 footer{
     background-color: black;
@@ -196,8 +211,6 @@ div h1{
 #formularioSumate form{
     color: white;
 }
-
-
 /*MEDIA QUERIES*/
 /*inicio*/
 @media (max-width:375px){
@@ -221,7 +234,6 @@ div h1{
     #bannerBienvenida div img{
         padding-top: 70px;
     }
-
     footer{
         height: auto;
     }
