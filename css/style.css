@@ -122,17 +122,16 @@ footer{
     font-weight: bold;
     font-size: 15px;
     display: flex;
-    padding-top: 70px;
-    flex-wrap: wrap;
+    padding-top: 80px;
 }
-.titulo-productos {
-    font-size: 15px;
+.titulo-productos h2{
+    font-size: 20px;
     font-weight: bold;
     padding: 5px;
 }
 a img{
-    width: 20%;
-    height: 80%; 
+    width: 25%;
+    height: auto; 
 }
 /*pagina nosotros*/
 .contenedor-nosotros {
