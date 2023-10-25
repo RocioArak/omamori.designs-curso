@@ -121,16 +121,21 @@ footer{
     color: black;
     font-weight: bold;
     font-size: 15px;
-    display: flex;
     padding-top: 80px;
 }
-.titulo-productos h2{
+.titulos-productos{
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+.titulos-productos h2{
     font-size: 20px;
     font-weight: bold;
     padding: 5px;
+    letter-spacing: 2px;
 }
 a img{
-    width: 25%;
+    width: 100px;
     height: auto; 
 }
 /*pagina nosotros*/
