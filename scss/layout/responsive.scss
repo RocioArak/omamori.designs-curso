@@ -1,0 +1,32 @@
+/*MEDIA QUERIES*/
+/*inicio*/
+@media (max-width: 414px) {
+    header {
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+        .menu-item a {
+            text-decoration: none;
+            padding: 10px;
+            font-size: 14px;
+        }
+    }
+
+    #bannerBienvenida {
+        h1 {
+            font-size: 60px;
+        }
+        p {
+            font-size: 25px;
+        }
+        div img {
+            padding-top: 70px;
+        }
+    }
+
+    footer {
+        height: auto;
+    }
+}

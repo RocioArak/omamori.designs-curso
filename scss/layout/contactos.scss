@@ -1,0 +1,39 @@
+#redesSocialesContacto {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 10px;
+}
+
+div h1 {
+    font-family: "Helvetica";
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.redes-sociales {
+    text-align: left;
+    margin: 20px;
+    flex-direction: row;
+    
+    img {
+        flex-direction: row;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+}
+
+#mapaContacto {
+    background-color: black;
+
+    h2 {
+        color: white;
+        font-size: 25px;
+    }
+
+    iframe {
+        justify-items: right;
+    }
+}
