@@ -1,65 +1,92 @@
-
 #bannerBienvenida {
-    background-image: url(../imagenes/fondoprincipalbarbijos.JPG);
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    padding: 80px 10px;
-    align-items: center;
+  background-image: url(../imagenes/fondoprincipalbarbijos.JPG);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  padding: 80px 10px;
+  align-items: center;
+  color: $secondary-color;
+
+  h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
     color: $secondary-color;
-    h1 {
-        font-size: 70px;
-        margin-bottom: 30px;
-        text-align: center;
-        font-weight: bold;
-        color: $secondary-color;
+
+    @include media-query-mobile {
+      h1 {
+        font-size: 60px;
+      }
     }
-    p {
-        font-size: 30px;
-        width: 65%;
-        text-align: center;
-        text-align: justify;
+  }
+
+  p {
+    font-size: 30px;
+    width: 65%;
+    text-align: center;
+    text-align: justify;
+    @include media-query-mobile {
+      p {
+        font-size: 25px;
+      }
     }
-    div p {
-        font-size: 20px;
-        font-weight: bold;
-        background-color: rgba(0, 0, 0, 0.8);
-        text-align: center;
-        color: $terciary-color;
-        margin: 40px;
-        width: auto;
+  }
+
+  div p {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: $terciary-color;
+    margin: 40px;
+    width: auto;
+  }
+
+  a {
+    background-color: $secondary-color;
+    color: $terciary-color;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-color: $terciary-color;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $terciary-color;
+      color: $secondary-color;
     }
-    a {
-        background-color: $secondary-color;
-        color: $terciary-color;
-        font-size: 20px;
-        font-weight: bold;
-        padding: 10px 15px;
-        border-radius: 8px;
-        border-color: $terciary-color;
-        text-decoration: none;
-        &:hover {
-            background-color: $terciary-color;
-            color: $secondary-color;
-        }
-    }
+  }
+
+  div img {
+    width: 150px;
+    height: auto;
+  }
+
+  @include media-query-mobile {
     div img {
-        width: 150px;
-        height: auto;
+      padding-top: 65px;
     }
+  }
 }
+
 #carousel {
   background-color: $primary-color;
 }
+
 #carouselInicio {
   max-width: 800px;
   margin: 0 auto;
   background-color: $primary-color;
   padding: 10px;
 }
+
 .carousel-inner {
   width: 100%;
 }
+
 .carousel-item {
   width: 100%;
 }
+

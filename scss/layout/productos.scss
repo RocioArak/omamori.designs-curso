@@ -1,32 +1,38 @@
 
 #paginasDeProductos {
-    background-color: white;
     font-family: "Helvetica";
     color: black;
     font-weight: bold;
     font-size: 15px;
     padding-top: 80px;
-}
-h1{
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    color: $primary-color;
-}
-
-.titulos-productos {
-    width: 150px;
-    height: auto;
-    align-items: center;
-    h2 {
-        font-size: 20px;
-        font-weight: bold;
-        padding: 5px;
-        letter-spacing: 2px;
+    @include media-query-mobile{
+        padding-top: 150px;
     }
+    
+    h1{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: $primary-color;
+        padding: 10px;
+    }
+    .titulos-productos {
+        width: 150px;
+        height: auto;
+        align-items: center;
+        a img {
+            width: 150px;
+            height: auto;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 5px;
+            letter-spacing: 2px;
+        }
+    }
+    
 }
 
-a img {
-  width: 100px;
-  height: auto;
-}
+
+

@@ -2,21 +2,19 @@
     background-color: black;
     display: flex;
     padding: 250px 30px;
-
     div {
         color: white;
-    }
-
-    h1 {
-        font-size: 25px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 12px;
-        text-align: justify;
-        line-height: 1.5;
-        letter-spacing: 1px;
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            color:$secondary-color
+        }
+        p {
+            font-size: 12px;
+            text-align: justify;
+            line-height: 1.5;
+            letter-spacing: 1px;
+        }
     }
 
     form {

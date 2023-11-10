@@ -1,15 +1,19 @@
+
+
 // General
 @import "./general/variables.scss";
 @import "./general/reset.scss";
 @import "./general/typography.scss";
+@import "./general/mediaquery.scss";
 
 // Layout
 @import "./layout/header.scss";
 @import "./layout/inicio.scss";
 @import "./layout/productos.scss";
 @import "./layout/nosotros.scss";
-@import "./layout/footer.scss";
 @import "./layout/contactos.scss";
 @import "./layout/sumate.scss";
+@import "./layout/footer.scss";
 
+//Responsive header y footer
 @import "./layout/responsive.scss";
