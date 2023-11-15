@@ -25,14 +25,16 @@ header {
     display: flex;
     margin:0;
   }
-  .menu-item a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    color: $secondary-color;
-    padding: 20px;
-    &:hover {
-      color: $terciary-color;
+  .menu-item {
+      a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      color: $secondary-color;
+      padding: 20px;
+      &:hover {
+        color: $terciary-color;
+      }
     }
   }
 }

@@ -1,10 +1,10 @@
 
 #paginasDeProductos {
     font-family: "Helvetica";
-    color: black;
+    color: $primary-color;
     font-weight: bold;
     font-size: 15px;
-    padding-top: 10px;
+    padding-top: $padding-top;
     @include media-query-mobile{
         padding-top: 20px;
     }
@@ -24,7 +24,7 @@
         width: 150px;
         height: auto;
         align-items: center;
-        a img {
+        img {
             width: 150px;
             height: auto;
         }

@@ -16,7 +16,7 @@
         font-size: 30px;
         font-weight: bold;
         color: $primary-color;
-        padding-top: 10px;
+        padding-top: $padding-top;
         @include media-query-mobile {
             font-size: 25px;
         }
