@@ -1,8 +1,12 @@
+
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>OMAMORI DESIGNS Sumate</title>
+        <meta name="description" content=" Si te gusta la moda, estar en tendecia, sumate a nuestro equipo que siempre estamos abiertos a nuevas ideas y propuestas como también apliarnos en los diferentes puestos. Influencers, creadores de contenido, otros emprendimientos, fotografos, etc; gente con muchas ganas de formar parte como sea, dejanos tus datos! .">
+        <meta name="keywords" content="Accesorios, accesorios de moda, emprendimiento, omamori designs, diseños propios, carteras modernas, emprendimientos de moda, moda en accesorios, diseños con cadenas, diseño fashion, llaverosgel, barbijos lindos, accesorios para regalar, porta vasos, sujeta barbijos, sujeta lentes, carteras.">
+        <title>OMAMORI DESIGNS | Sumate</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="shortcut icon" href="./imagenes/logo.png">
@@ -12,37 +16,41 @@
             <a href="../index.html"> OMAMORI DESIGNS </a> 
             <nav>
                 <ul>
-                    <li class="menu-item"><a href="../paginas/productos.html" > PRODUCTOS </a></li>
-                    <li class="menu-item"><a href="../paginas/nosotros.html" > NOSOTROS </a></li>
-                    <li class="menu-item"><a href="../paginas/contactos.html" > CONTACTOS </a></li>
-                    <li class="menu-item"><a href="sumate.html" > SUMATE </a></li>
+                    <li class="menu-item"><a href="../paginas/productos.html"> PRODUCTOS </a></li>
+                    <li class="menu-item"><a href="../paginas/nosotros.html"> NOSOTROS </a></li>
+                    <li class="menu-item"><a href="../paginas/contactos.html"> CONTACTOS </a></li>
+                    <li class="menu-item"><a href="sumate.html"> SUMATE </a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <div id="formularioSumate">
-                <div>
-                    <h1>Queres formar parte de nuestro team?</h1>
-                    <p> Si sos emprendedora, creativa, te gusta estar siempre con las ultimas tendencias, te gusta la moda, influenciar a otros, te estamos buscando! Detras de toda una marca hay mucha pasion, dedicacion, y puestos que esperan ser ocupados y a nosotros nos encanta conocer mas nuestros clientes/equipo</p>
+            <div id="paginaSumate">
+                <div id="textoSumate">
+                    <div>
+                        <h1>Queres formar parte de nuestro team?</h1>
+                        <p> Si sos emprendedora, creativa, te gusta estar siempre con las ultimas tendencias, te gusta la moda, influenciar a otros, te estamos buscando! Detras de toda una marca hay mucha pasion, dedicacion, y puestos que esperan ser ocupados y a nosotros nos encanta conocer mas nuestros clientes/equipo</p>
+                    </div>
                 </div>
-                <form action="procesar_formulario.php" method="POST" enctype="multipart/form-data">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required><br><br>
-            
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-            
-                    <label for="email">Instagram:</label>
-                    <input type="instagram" id="instagram" name="instagram" required><br><br>
+                <div id="formularioSumate">
+                    <form action="procesar_formulario.php" method="POST" enctype="multipart/form-data">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                
+                        <label for="email">Instagram:</label>
+                        <input type="instagram" id="instagram" name="instagram" required><br><br>
 
-                    <label for="archivo">Subir archivo de tu portfolio/cv:</label>
-                    <input type="file" id="archivo" name="archivo"><br><br>
-            
-                    <label for="mensaje">Mensaje del porque queres formar parte del #teamOmamori:</label><br>
-                    <textarea id="mensaje" name="mensaje" rows="4" cols="60" required></textarea><br><br>
-            
-                    <input type="submit" value="Enviar">
-                </form>
+                        <label for="archivo">Subir archivo de tu portfolio/cv:</label>
+                        <input type="file" id="archivo" name="archivo"><br><br>
+                
+                        <label for="mensaje">Mensaje del porque queres formar parte del #teamOmamori:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea><br><br>
+                
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
             </div>
         </main>
         <footer>

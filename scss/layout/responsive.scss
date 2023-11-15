@@ -7,17 +7,26 @@
         text-align: center;
         flex-direction: column;
         align-items: center;
-  
-        .menu-item a {
-            text-decoration: none;
-            padding: 10px;
-            font-size: 14px;
+        justify-content: center;
+        ul{
+            padding: 0;
         }
+  
+        .menu-item {
+            a {
+                text-decoration: none;
+                padding: 5px;
+                font-size: 12px;   
+            }
+        }
+    }
+
+    main {
+        height: auto;
     }
     
     footer {
         height: auto;
+        padding-top: 20px;
     }
-  
-    
 }

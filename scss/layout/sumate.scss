@@ -1,14 +1,32 @@
-#formularioSumate {
-    background-color: black;
+#paginaSumate {
+    background-color: $primary-color;
+    padding: 25px 15px;
     display: flex;
-    padding: 250px 30px;
-    div {
-        color: white;
+    flex-direction: row;
+    @include media-query-mobile {
+        flex-direction: column;
+    }
+
+    #textoSumate {
+        align-items: center;
+        justify-items: center;
+        div {
+            color: $secondary-color;
+            padding: 10px;
+            padding-top: 100px;
+            @include media-query-mobile{
+                padding-bottom: 50px;
+            }
+        }
+
+
         h1 {
             font-size: 30px;
             font-weight: bold;
-            color:$secondary-color
+            color: $secondary-color;
+            align-items: center;
         }
+
         p {
             font-size: 12px;
             text-align: justify;
@@ -17,7 +35,11 @@
         }
     }
 
+    #formularioSumate {
+        padding: 10px;
+    }
+
     form {
-        color: white;
+        color: $secondary-color;
     }
 }
