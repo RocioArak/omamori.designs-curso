@@ -1,12 +1,12 @@
 
 #paginasDeProductos {
-    font-family: "Helvetica";
+    font-family: $font-family;
     color: $primary-color;
     font-weight: bold;
     font-size: 15px;
-    padding-top: $padding-top;
+    padding: $padding-titulos;
     @include media-query-mobile{
-        padding-top: 20px;
+        padding-top: 60px;
     }
     
     h1{
@@ -17,16 +17,18 @@
         padding: 10px;
         @include media-query-mobile {
             font-size: 25px;
-            padding: 40px;
+            padding: 20px;
         }
     }
     .titulos-productos {
-        width: 150px;
+        width: 100%;
         height: auto;
         align-items: center;
         img {
-            width: 150px;
+            width: 100%;
             height: auto;
+            aspect-ratio: 1/1;
+            object-fit: cover;
         }
         h2 {
             font-size: 20px;

@@ -144,11 +144,11 @@ main {
   color: black;
   font-weight: bold;
   font-size: 15px;
-  padding-top: 15px;
+  padding: 20px;
 }
 @media (max-width: 425px) {
   #paginasDeProductos {
-    padding-top: 20px;
+    padding-top: 60px;
   }
 }
 #paginasDeProductos h1 {
@@ -161,17 +161,19 @@ main {
 @media (max-width: 425px) {
   #paginasDeProductos h1 {
     font-size: 25px;
-    padding: 40px;
+    padding: 20px;
   }
 }
 #paginasDeProductos .titulos-productos {
-  width: 150px;
+  width: 100%;
   height: auto;
   align-items: center;
 }
 #paginasDeProductos .titulos-productos img {
-  width: 150px;
+  width: 100%;
   height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 #paginasDeProductos .titulos-productos h2 {
   font-size: 20px;
@@ -196,10 +198,11 @@ main {
   }
 }
 .contenedor-nosotros h1 {
+  font-family: "Helvetica";
   font-size: 30px;
   font-weight: bold;
   color: black;
-  padding-top: 15px;
+  padding: 20px;
 }
 @media (max-width: 425px) {
   .contenedor-nosotros h1 {
