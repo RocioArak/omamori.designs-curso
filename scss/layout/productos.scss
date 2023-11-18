@@ -17,7 +17,7 @@
         padding: 10px;
         @include media-query-mobile {
             font-size: 25px;
-            padding: 20px;
+            padding: $padding-titulos;
         }
     }
     .titulos-productos {

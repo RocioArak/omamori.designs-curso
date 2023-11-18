@@ -13,7 +13,7 @@
       width: 150px;
       height: auto;
       @include media-query-mobile {
-        padding-top: 65px;
+        padding-top: 50px;
       }
     } 
   } 
@@ -64,7 +64,7 @@
 
     &:hover {
       background-color: $terciary-color;
-      color: $secondary-color;
+      color: map-get($otros-colores, quinary );
     }
   }
 }

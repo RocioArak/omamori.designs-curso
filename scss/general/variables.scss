@@ -5,12 +5,25 @@ $terciary-color: #FF006E;
 
 $otros-colores:(
     quaternary: #686963,
-    quinary: #E6FF00,
+    quinary: #C3D70C,
 );
 
 //padding main
-$padding-titulos: 20px;
+$padding-titulos: 25px;
 
 //font
 $font-family: "Helvetica";
+
+$background-color: white;
+$font-color: white;
+
+@if $background-color == white{
+    $font-color: black;
+}@else if $background-color == black{
+    $font-color: white;
+}
+
+//Tablet
+$width-screen: medium;
+
 

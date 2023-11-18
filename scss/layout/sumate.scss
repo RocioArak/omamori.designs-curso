@@ -39,4 +39,11 @@
     form {
         color: $secondary-color;
     }
+    input {
+        border-radius: 3px;
+        &:hover {
+            background-color: $terciary-color;
+            color: $secondary-color;
+        }
+    }
 }

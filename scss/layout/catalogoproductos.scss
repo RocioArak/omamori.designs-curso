@@ -1,0 +1,87 @@
+#paginaDeCatalogo {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: $primary-color;
+        padding: $padding-titulos;
+        margin: 0;
+
+        @include media-query-mobile {
+            font-size: 25px;
+            padding-top: 60px;
+        }
+    }
+
+    #catalogoProductos {
+        font-family: $font-family;
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 20px;
+        padding-top: 0;
+        display: flex;
+
+
+        @include media-query-mobile {
+            padding-top: 20px;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        @include media-query-tablet {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            img {
+                aspect-ratio: 1/1;
+                object-fit: cover;
+            }
+        }
+
+        .card-body {
+            h5{
+                font-weight: bold;
+            }
+            p{
+                color: map-get($otros-colores, quaternary);
+            }
+        }
+
+        .btn{ 
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-color: $primary-color;
+        }
+
+        .btn-primary {
+            @extend .btn;         
+            background-color: $terciary-color;
+            color: $secondary-color;
+        
+            &:hover {
+                background-color: map-get($otros-colores, quinary);
+                color: $terciary-color;
+            }
+        }
+
+        .btn-secundary {
+            @extend .btn;
+            background-color: map-get($otros-colores, quinary);
+            color: $secondary-color;
+        
+            &:hover {
+                background-color: $terciary-color;
+                color: map-get($otros-colores, quinary );
+            }
+        }
+    }
+}

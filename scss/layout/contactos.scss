@@ -11,11 +11,11 @@
             font-family: "Helvetica";
             font-size: 25px;
             font-weight: bold;
-            padding-top: 20px;
+            padding-top: $padding-titulos;
             text-align: center;
 
             @include media-query-mobile {
-                padding-top: 55px;
+                padding-top: 60px;
                 font-size: 20px;
             }
         }
