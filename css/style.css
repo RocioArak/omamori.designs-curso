@@ -25,11 +25,20 @@ header a {
 }
 header a:hover {
   color: #FF006E;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
 }
 header ul {
   list-style-type: none;
   display: flex;
   margin: 0;
+}
+header ul li {
+  transition: all 0.3s ease;
+}
+header ul li:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
 }
 header .menu-item a {
   text-decoration: none;
@@ -314,12 +323,12 @@ main {
   font-family: "Helvetica";
   font-size: 25px;
   font-weight: bold;
-  padding-top: 25px;
+  padding-top: 20px;
   text-align: center;
 }
 @media (max-width: 430px) {
   #redesSocialesContacto .redes-sociales h1 {
-    padding-top: 60px;
+    padding-top: 55px;
     font-size: 20px;
   }
 }
@@ -328,6 +337,7 @@ main {
   width: 40px;
   height: 40px;
   padding: 5px;
+  filter: invert(18%) sepia(90%) saturate(7296%) hue-rotate(327deg) brightness(99%) contrast(110%);
 }
 #redesSocialesContacto #mapaContacto {
   background-color: black;

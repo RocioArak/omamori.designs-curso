@@ -17,14 +17,24 @@ header {
     font-family: $font-family;
     font-size: 35px;
     font-weight: bold;
+    
     &:hover {
-      color: $terciary-color;
+      color: $terciary-color; 
+      transform: translateY(-2px);
+      transition: all 0.3s ease;
     }
   }
   ul {
     list-style-type: none;
     display: flex;
     margin:0;
+    li{
+      transition: all 0.3s ease;
+      &:hover{
+        transform: translateY(-2px);
+        transition: all 0.3s ease;
+      }
+    }
   }
   .menu-item {
       a {
